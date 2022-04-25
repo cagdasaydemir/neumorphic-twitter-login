@@ -1,0 +1,94 @@
+main {
+  background-color: #ecf0f3;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  place-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.main-box {
+  position: relative;
+  width: 350px;
+  height: 500px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 35px;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+.logo-circle {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  color: rgb(29, 155, 240);
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+.twitter-name {
+  font-size: x-large;
+  margin-bottom: 30px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: rgb(29, 155, 240);
+}
+.form-box {
+  display: flex;
+  flex-direction: column;
+}
+.email_label,
+.password_label {
+  font-weight: 600;
+}
+.email_input,
+.password_input {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  width: 280px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+.rounded-pill_login {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  margin-top: 5px;
+
+  text-align: center;
+
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 10px 20px;
+  height: 50px;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+}
+.email_input:focus,
+.password_input:focus {
+  outline: none;
+}
+.cagdas {
+  position: absolute;
+  right: 25px;
+  bottom: 6px;
+  font-size: 8px;
+  text-decoration: none;
+  color: black;
+}
